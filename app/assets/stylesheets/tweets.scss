@@ -1,5 +1,9 @@
 .wrapper {
+  background-color: #fff;    //背景に色を付ける
+  margin-top: 10px;  //ナビゲーションバーとの間を空ける
   margin-bottom: 74px;
+  border-radius: 10px;  //角を丸くする
+  padding-top: 70px;
   padding: 20px 20px 20px 35px;
   .row {
     border-bottom: 1px solid #ccc;

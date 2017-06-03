@@ -1,9 +1,48 @@
-
-.main-header{
-    padding-bottom: 100%;
-    width: 100%;
-    background-size: cover;
-    background-image: url("failwhale.jpg");
-    background-attachment: fixed;
+head{
 }
 
+body {
+    background-color: #f5f8fa;    //背景に色を付ける
+}
+
+header{
+    width: 100%;
+    height: 50px;    //ナビゲーションバーの配置に合うようヘッダーの縦幅も固定値で空けておく
+}
+
+
+.main-header{
+    padding-bottom: 48%;    //縦の表示を伸ばす？？
+    width: 100%;    //クジラ画像を比率として100%で表示させる
+    background-size: cover;    //クジラを１枚で表示させる
+    background-image: url("failwhale.jpg");
+    background-attachment: fixed;    //背景画像の固定（スクロールしても動かさない）
+}
+
+.big_bird{    //ヘッダーの鳥マーク
+//  padding-top:12px;    //上から12px離す
+ height:20px;    //画像のサイズを固定する（リサイズ）
+}
+
+.navbar-default {
+    border: 0;
+}
+
+.navbar-brand{
+    font-size: 14px;    //デフォルトのサイズが18pxだったため、手動で修正。
+}
+
+
+.navbar {
+    background-color: #fff;    //透明設定だったナビゲーションバーを白で配色
+    margin-bottom: 0px;    //マージンを削る。
+}
+
+.failwhale{    //TOP画面の文章の開始位置を設定。
+    left:50%;
+    position:absolute;
+    height:328px;
+    margin:-154px 0 0 -418px;
+    top:50%;
+    width:838px;
+}
